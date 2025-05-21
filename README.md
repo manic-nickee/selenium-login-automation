@@ -1,26 +1,24 @@
-# Selenium Login Automation
+# Selenium Login Automation (Python)
 
-This project demonstrates a simple automation script using **Selenium WebDriver** in Python.  
-It automates the login process for a sample test website.
+This project automates a login flow using Selenium WebDriver with Python. It simulates user actions on a sample login page, verifies error messages, and asserts navigation flow based on input credentials.
 
-## 🔧 Technologies Used
-- Python
+## Features
+
+- Automated browser interaction for login form
+- Input field validation using test data
+- Error message verification for incorrect logins
+- URL assertions to validate expected page navigation
+
+## Technologies Used
+
+- Python 3
 - Selenium WebDriver
-- ChromeDriver
 - WebDriver Manager
+- Pytest (for test execution and parameterization)
 
-## 🧪 Features
-- Launches Chrome browser
-- Navigates to the practice login page
-- Enters username and password
-- Submits the login form
-- Verifies successful login by checking:
-  - URL match
-  - Header text
-  - Visibility of the "Log out" link
+## Installation
 
-## 🛠 Setup Instructions
-
-1. Clone the repo:
+1. Clone the repository:
    ```bash
    git clone https://github.com/manic-nickee/selenium-login-automation.git
+   cd selenium-login-automation
