@@ -2,7 +2,6 @@ import pytest
 from selenium.webdriver.common.by import By
 
 
-
 class TestNegativeLogin:
     @pytest.mark.negative_login
     @pytest.mark.parametrize("username, password, error_message", [("incorrect_username", "Password123", "Your username is invalid!"), ("student", "incorrect_password", "Your password is invalid!")])

@@ -16,7 +16,7 @@
             "request": "launch",
             "module": "pytest",
             "args": [
-                "-m", "correct_login"
+                "-m", "correct_login", "--html=reports/report.html"
             ],
             "console": "integratedTerminal",
             "justMyCode": true
@@ -27,7 +27,7 @@
             "request": "launch",
             "module": "pytest",
             "args": [
-                "-m", "negative_login"
+                "-m", "negative_login", "--html=reports/report.html"
             ],
             "console": "integratedTerminal",
             "justMyCode": true
